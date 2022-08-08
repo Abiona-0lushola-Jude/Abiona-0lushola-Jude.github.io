@@ -193,12 +193,12 @@ header{
 }
 #view{
     width: 100%;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: max-content; 
     display: flex;
     align-items: center;
     justify-content: end;
-    background-color: #2B2B2B;
+    /* background-color: #2B2B2B; */
     border-radius: 1rem;
 }
 .view{
