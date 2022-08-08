@@ -55,6 +55,7 @@ header{
     width: 100%;
     height: 100%;
     filter: saturate(190%);
+    filter: drop-shadow(2px 4px 8px #575757);
 }
 #whiteBack{
     position: absolute;
@@ -167,33 +168,49 @@ header{
     /* border: 1px solid; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: #FEFEFD;
 }
-
+#stack{
+    font-weight: 900;
+    line-height: 1.6rem;
+}
 .project-card h3{
     margin-block: 1rem;
     text-align: center;
     text-transform: capitalize;
 }
 .project-card p{
-    text-align: center;
+    /* text-align: center; */
     line-height: 2rem;
 }
+.card-content{
+    display: flex;
+}
+.shortly{
+    margin: 0;
+}
 #view{
-    width: max-content;
+    width: 100%;
+    border: 1px solid;
+    width: max-content; 
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding: 0.2rem 1rem;
+    justify-content: end;
     background-color: #2B2B2B;
     border-radius: 1rem;
+}
+.view{
+    width: max-content;
+    background-color: #2B2B2B;
     font-size: 0.8rem;
     margin-top: 0.5rem;
-    float: right;
-    position: relative;
-    right: 0;
+    padding: 0.2rem 1.3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 #view a{
     color: white;
