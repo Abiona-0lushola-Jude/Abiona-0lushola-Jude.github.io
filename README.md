@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![abiona-0lushola-jude github io_](https://user-images.githubusercontent.com/103720345/172357241-1464d867-84a8-4943-b80e-13f728e28ea6.png)
 
-- Here is a screenshot of the web page.
+- Here is a screenshot of the web page on mobile.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: Abiona-0lushola-Jude.github.io
 
 ## My process
 
