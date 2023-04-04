@@ -156,6 +156,7 @@ header{
 .img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .project{
     display: flex;
@@ -182,7 +183,6 @@ header{
     text-transform: capitalize;
 }
 .project-card p{
-    /* text-align: center; */
     line-height: 2rem;
 }
 .card-content{
@@ -193,12 +193,10 @@ header{
 }
 #view{
     width: 100%;
-    /* border: 1px solid; */
     width: max-content; 
     display: flex;
     align-items: center;
     justify-content: end;
-    /* background-color: #2B2B2B; */
     border-radius: 1rem;
 }
 .view{
